@@ -1,0 +1,75 @@
+//LIBS
+
+
+//OVERALL
+@import './components/vars.scss';
+@import './components/global.scss';
+@import './components/animations.scss';
+
+
+//BLOCKS
+
+
+
+//MEDIA
+@import './components/media.scss';
+
+
+
+
+.qq-upload-list {
+    display: flex;
+    flex-direction: column;
+    overflow: visible !important;
+    li {
+        display: flex !important;
+        align-items: center;
+        border: 2px solid #ECECEC !important;
+        background-color: transparent !important;
+        box-shadow: none !important;
+        height: auto !important;
+
+        padding: 16px 30px !important;
+
+        
+
+        
+        width: 100%;
+        max-width: unset !important;
+        margin: 0 !important;
+        margin-bottom: 15px !important;
+
+        .qq-thumbnail-wrapper {
+            height: 25px !important;
+            width: 25px !important;
+            margin-right: 15px;
+        }
+
+        .qq-file-info {
+            padding: 0 !important;
+            display: flex !important;
+            align-items: center;
+            margin: 0 !important;
+            // .qq-edit-filename {
+            //     display: none !important;
+            // }
+            .qq-upload-size {
+                display: none;
+            }
+        }
+
+
+        .qq-upload-status-text {
+            display: none !important;
+        }
+
+        .qq-upload-retry {
+            display: none !important;
+        }
+
+        .qq-upload-cancel {
+            display: none !important;
+        }
+    }
+}
+
